@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Slider>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/AdminF/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<div class="container">
+    <div class="row">
+        <a class="btn btn-primary" asp-controller="slider" asp-action="Create">Create</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Photo</th>
+                    <th scope="col">Logo</th>
+                    <th scope="col">Settings</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    count++;
+                    <tr>
+                        <td>@count</td>
+                        <td><img src="~/images/@item.Image"/></td>
+                        <td><img src="~/images/@item.Logo"/></td>
+                        <td>
+                            <a class="btn btn-danger"  asp-controller="slider" asp-action="delete" asp-route-id="@item.Id">Delete</a>
+                            <a class="btn btn-success" asp-controller="slider" asp-action="update" asp-route-id="@item.Id">Update</a>
+                            <a class="btn btn-primary" asp-controller="slider" asp-action="detail" asp-route-id="@item.Id">Detail</a>
+
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

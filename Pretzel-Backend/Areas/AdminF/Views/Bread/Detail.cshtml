@@ -1,0 +1,28 @@
+﻿@model Bread
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Areas/AdminF/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="container">
+    <div class="row">
+        <a class="btn btn-primary" asp-controller="bread" asp-action="Create">Create</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Photo</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Desc</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td><img src="~/images/@Model.Image"/></td>
+                        <td>@Model.Name</td>
+                        <td>@Model.Desc</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

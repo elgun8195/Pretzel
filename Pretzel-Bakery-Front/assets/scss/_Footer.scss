@@ -1,0 +1,113 @@
+footer {
+    background-color: $main-color;
+
+
+    .footer {
+        margin: 3%;
+
+        .f-left {
+            p {
+                color: gray;
+            }
+
+            span {
+                color: gray;
+
+                a {
+                    margin-left: 2%;
+
+                    i {
+                        color: gray;
+
+                    }
+
+                    i:hover {
+                        color: $secondary-color;
+                        transition: 0.8s;
+                    }
+                }
+            }
+        }
+
+        .f-left-center {
+            h5 {
+                color: white;
+                font-family: $main-font;
+                letter-spacing: 2px;
+            }
+
+            p {
+                color: gray;
+                margin-top: 10%;
+                font-size: 14px;
+
+                i {
+                    color: $secondary-color;
+                }
+
+                a {
+                    color: white;
+                }
+
+                a:hover {
+                    color: $secondary-color;
+                    transition: 0.8s;
+                }
+            }
+        }
+
+        .f-right-center {
+            h5 {
+                color: white;
+                font-family: $main-font;
+                letter-spacing: 2px;
+            }
+
+            a {
+                img {
+                    width: 100px;
+                    margin: 5px;
+                }
+
+                transition: transform .2s;
+            }
+
+            a:hover {
+                transform: scale(1.1);
+            }
+        }
+
+
+        .f-right {
+            h5 {
+                color: white;
+                font-family: $main-font;
+                letter-spacing: 2px;
+            }
+
+            .subscribe {
+                input {
+                    width: 270px;
+                    height: 50px;
+                    background-color: white
+                }
+
+                button {
+                    height: 50px;
+                    width: 100px;
+                    color: white;
+                    background-color: $secondary-color;
+                }
+            }
+
+            p {
+                margin-top: 10%;
+                color: gray;
+
+                span {
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+}

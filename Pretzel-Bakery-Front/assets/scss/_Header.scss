@@ -1,0 +1,50 @@
+header{
+background-color: rgb(68, 113, 131);
+
+    #navbar{
+        a{
+            color: white;
+        }
+        i{
+            color: #fff;
+        }
+        .header{
+            margin-top: 2%;
+            .header-left{
+            margin-top: 5%;
+    
+                a{
+                    margin-left: 15%;
+                }
+            }
+            .header-logo{
+                margin-right: 20%;
+                margin-left: 45%;
+                a{
+                    img{
+                        width: 150px;
+                    }
+                }
+            }
+            
+            .header-right{
+            margin-top: 5%;
+    
+                a{
+                    margin-left: 15%;
+                }
+            }
+        }
+    }
+.carousel-indicators{
+    li{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+}
+.carousel-caption{
+    margin-bottom: 10%;
+}
+
+}

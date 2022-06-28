@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", "Brusher";
+}
+
+header {
+  background-color: #447183;
+}
+
+header #navbar a {
+  color: white;
+}
+
+header #navbar i {
+  color: #fff;
+}
+
+header #navbar .header {
+  margin-top: 2%;
+}
+
+header #navbar .header .header-left {
+  margin-top: 5%;
+}
+
+header #navbar .header .header-left a {
+  margin-left: 15%;
+}
+
+header #navbar .header .header-logo {
+  margin-right: 20%;
+  margin-left: 45%;
+}
+
+header #navbar .header .header-logo a img {
+  width: 150px;
+}
+
+header #navbar .header .header-right {
+  margin-top: 5%;
+}
+
+header #navbar .header .header-right a {
+  margin-left: 15%;
+}
+
+header .carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+header .carousel-caption {
+  margin-bottom: 10%;
+}
+
+#delicious {
+  margin-top: 5%;
+}
+
+#delicious .head-text {
+  margin-left: 30%;
+  text-align: center;
+}
+
+#delicious .head-text h2 {
+  font-family: Brusher;
+  font-weight: 800;
+}
+
+#delicious .head-text p {
+  color: gray;
+  text-align: center;
+}
+
+#delicious .elements {
+  margin-top: 5%;
+}
+
+#delicious .elements .items {
+  width: 362px;
+  margin-left: 7%;
+}
+
+#delicious .elements .items img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+#delicious .elements .items h5 {
+  margin-top: 15%;
+  text-align: center;
+}
+
+#delicious .elements .items p {
+  margin-top: 15%;
+  text-align: center;
+}
+
+#delicious .parallax .p-left p {
+  margin-bottom: 15%;
+  color: white;
+}
+
+#delicious .parallax .p-right h2 {
+  color: white;
+}
+
+#delicious .parallax .p-right p {
+  color: white;
+  margin-top: 5%;
+}
+
+#delicious .parallax .p-right .tbn {
+  margin-top: 5%;
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+#bread .head-text {
+  margin-left: 30%;
+  text-align: center;
+}
+
+#bread .head-text h2 {
+  font-family: Brusher;
+  font-weight: 800;
+}
+
+#bread .head-text p {
+  color: gray;
+  text-align: center;
+}
+
+#bread .breads {
+  display: flex;
+}
+
+#bread .breads .bread h5 {
+  font-family: "Open Sans";
+  text-align: center;
+  font-weight: 600;
+}
+
+#bread .breads .bread p {
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+footer {
+  background-color: #303030;
+}
+
+footer .footer {
+  margin: 3%;
+}
+
+footer .footer .f-left p {
+  color: gray;
+}
+
+footer .footer .f-left span {
+  color: gray;
+}
+
+footer .footer .f-left span a {
+  margin-left: 2%;
+}
+
+footer .footer .f-left span a i {
+  color: gray;
+}
+
+footer .footer .f-left span a i:hover {
+  color: #e1be64;
+  transition: 0.8s;
+}
+
+footer .footer .f-left-center h5 {
+  color: white;
+  font-family: "Open Sans";
+  letter-spacing: 2px;
+}
+
+footer .footer .f-left-center p {
+  color: gray;
+  margin-top: 10%;
+  font-size: 14px;
+}
+
+footer .footer .f-left-center p i {
+  color: #e1be64;
+}
+
+footer .footer .f-left-center p a {
+  color: white;
+}
+
+footer .footer .f-left-center p a:hover {
+  color: #e1be64;
+  transition: 0.8s;
+}
+
+footer .footer .f-right-center h5 {
+  color: white;
+  font-family: "Open Sans";
+  letter-spacing: 2px;
+}
+
+footer .footer .f-right-center a {
+  transition: transform .2s;
+}
+
+footer .footer .f-right-center a img {
+  width: 100px;
+  margin: 5px;
+}
+
+footer .footer .f-right-center a:hover {
+  transform: scale(1.1);
+}
+
+footer .footer .f-right h5 {
+  color: white;
+  font-family: "Open Sans";
+  letter-spacing: 2px;
+}
+
+footer .footer .f-right .subscribe input {
+  width: 270px;
+  height: 50px;
+  background-color: white;
+}
+
+footer .footer .f-right .subscribe button {
+  height: 50px;
+  width: 100px;
+  color: white;
+  background-color: #e1be64;
+}
+
+footer .footer .f-right p {
+  margin-top: 10%;
+  color: gray;
+}
+
+footer .footer .f-right p span {
+  color: #e1be64;
+}

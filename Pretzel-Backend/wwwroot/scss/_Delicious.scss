@@ -1,0 +1,73 @@
+#delicious {
+    margin-top: 5%;
+
+    .head-text {
+        margin-left: 30%;
+        text-align: center;
+
+        h2 {
+            font-family: Brusher;
+            font-weight: 800;
+        }
+
+        p {
+            color: gray;
+            text-align: center;
+        }
+    }
+
+
+    .elements {
+        margin-top: 5%;
+
+
+        .items {
+            width: 362px;
+            margin-left: 7%;
+
+            img {
+                border-radius: 50%;
+                width: 100%;
+            }
+
+            h5 {
+                margin-top: 15%;
+                text-align: center;
+            }
+
+            p {
+                margin-top: 15%;
+                text-align: center;
+            }
+        }
+    }
+
+
+    .parallax{
+        .p-left{
+            p{
+                margin-bottom: 15%;
+                color: white;
+            }
+        }
+
+        .p-right{
+
+            h2{
+                color: white;
+                
+            }
+            p{
+                color: white;
+                margin-top: 5%;
+            }
+
+            .tbn{
+                margin-top: 5%;
+                background-color: white;
+                border-color: white;
+                color: black;
+            }
+        }
+    }
+}

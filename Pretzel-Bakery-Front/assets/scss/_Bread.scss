@@ -1,0 +1,35 @@
+#bread{
+
+    .head-text {
+        margin-left: 30%;
+        text-align: center;
+
+        h2 {
+            font-family: Brusher;
+            font-weight: 800;
+        }
+
+        p {
+            color: gray;
+            text-align: center;
+        }
+    }
+
+
+    .breads{
+        display:flex;
+
+        .bread{
+            
+            h5{
+                font-family: $main-font;
+                text-align: center;
+                font-weight: 600;
+            }
+            p{
+                font-family: $main-font;
+                text-align: center;
+            }
+        }
+    }
+}
